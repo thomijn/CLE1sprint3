@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Vuurvechter Game</title>
+  <!-- styling external file-->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- the head image of the website -->
+  <section id="headimage">
+    <img src="./img/group.png">
+  </section>
+
+  <!-- navigation bar -->
+  <header id="navigation">
+    <div class="container">
+      <a href="#headimage">
+        <img id="logo" src="./img/logot.png">
+      </a>
+      <nav>
+        <ul id="list">
+          <li><a href="#about">Over</a></li>
+          <li><a href="#boxgame">Spel</a></li>
+          <li><a href="#boxlivescore">Livescore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- section about -->
+  <section id="about">
+    <div class="boxabout">
+      <img src="./img/Vuurvechter.png" width="900" height="1000">
+    </div>
+    <div class="boxabout">
+      <div class="container">
+        <h2>Over</h2>
+        <p> Werken bij de brandweer is toch de droom van elk kind? Met VuurVechter krijgt jouw kind die ervaring! Pak
+          snel de brandslang en wees de held van de dag.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="boxgame">
+    <div class="container">
+      <h2> spel </h2>
+      <div class="box">
+        <img src="./img/laser.png">
+        <h3>Laser</h3>
+        <p>Aan de brandslang is een laser lampje gekoppeld waarmee je vrij kunt richten.
+          Geen zorgen de laser is in geen enkele mogelijkheid schadelijk voor uw kind. De laser is ingesteld
+          zodat het fel genoeg is om gedetecteerd te worden, maar niet fel genoeg om schadelijk te zijn voor
+          het
+          oog.</p>
+      </div>
+      <div class="box">
+        <img src="./img/sensors.png">
+        <h3>Sensors</h3>
+        <p>Om de brand te blussen zijn er lichtsensors geplaats op de plekken waar de brand zich bevindt. Om
+          de brand te blussen moet er dus goed gericht worden.
+          Maar kom niet te dichtbij, blussen doe je op een afstand. Om te zorgen dat men op afstand blijft is
+          er een afstandssensor geplaatst die een waarschuwing geeft als er iemand te dichtbij komt.
+
+          Om het spel aan te zetten is er een druksensor die 3 seconden lang ingedrukt moet worden.</p>
+      </div>
+      <div class="box">
+        <img src="./img/vuur.png">
+        <h3>Vuur</h3>
+        <p>Het spel heeft twee verschillende branden die geblust moeten worden. Om in het fysieke spel aan te geven
+          hoe die branden er voor staan, zal het licht bij het vuur steeds meer dimmen als er vaker raak gericht
+          wordt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- section livescore -->
+  <section id="boxlivescore">
+    <div class="container">
+      <h2> Live score </h2>
+      <div class="box">
+        <img src="./img/tank.png">
+      </div>
+      <div class="box">
+        <h2>0%</h2>
+      </div>
+      <div class="box">
+        <ul>
+          <li>
+            Richt met de brandslang zo goed mogelijk op het middelpunt van het vuur.
+          </li>
+          <li>
+            Alle lichten bij het vuur moeten uit staan om het spel winnen.
+          </li>
+          <li>
+            Als je te dichtbij het vuur komt krijg je een waarschuwing te zien.
+          </li>
+          <li>
+            Hiernaast staat ook een indicatie van hoever je bent met blussen.
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- section contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="containercontact">
+
+      <div class="box">
+        <img src="./img/blank.png">
+        <h3>Valentine</h3>
+      </div>
+
+      <div class="box">
+        <img src="./img/blank.png">
+        <h3>Emerson</h3>
+      </div>
+
+      <div class="box">
+        <img src="./img/blank.png">
+        <h3>Fernando</h3>
+      </div>
+
+      <div class="box">
+        <img src="./img/blank.png">
+        <h3>Louis</h3>
+      </div>
+
+      <div class="box">
+        <img src="./img/blank.png">
+        <h3>Shaff</h3>
+      </div>
+
+      <div class="box">
+        <img src="./img/blank.png">
+        <h3>Tim</h3>
+      </div>
+
+      <div class="boxunder">
+        <img src="./img/blank.png">
+        <h3>Michel</h3>
+      </div>
+
+      <div class="boxunder">
+        <img src="./img/blank.png">
+        <h3>Thomas</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- section contact form -->
+  <section id="contactform">
+    <div class="containerform">
+      <h2> Stuur Feedback </h2>
+      <form action="/action_page.php">
+        <label for="fname">Voornaam</label>
+        <input type="text" id="fname" name="firstname" placeholder="Uw voornaam...">
+
+        <label for="lname">Achternaam</label>
+        <input type="text" id="lname" name="lastname" placeholder="Uw achternaam...">
+
+        <label for="country">land</label>
+        <select id="country" name="land...">
+          <option value="Nederland">Nederland</option>
+          <option value="België">België</option>
+          <option value="Duitsland">Duitsland</option>
+        </select>
+        <label for="subject">Onderwerp</label>
+        <textarea id="subject" name="subject" placeholder="Schrijf iets leuks!" style="height:200px"></textarea>
+      </form>
+      <input type="submit" value="Submit" class="submit">
+      <button id="nice"> Leuk! </button>
+      <button id="bad"> niet leuk! </button>
+    </div>
+  </section>
+
+  <!-- footer-->
+  <footer>
+    <img src="./img/logo.png">
+    <p> Made by Thomas Gertenbach</p>
+  </footer>
+
+</body>
+<!-- Javascript external file-->
+<script src="vuurvechter.js"> </script>
+
+</html>
