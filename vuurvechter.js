@@ -8,15 +8,15 @@ let sticky = nav.offsetTop;
 
 // add the classes and change when offset reaches
 function stickyNav() {
-  if (window.pageYOffset >= sticky) {
-    nav.classList.add("sticky")
-    document.getElementById("logo").style.width = "17%";
-    document.getElementById("list").style.margin = "-20px";
-  } else {
-    nav.classList.remove("sticky");
-    document.getElementById("logo").style.width = "30%";
-    document.getElementById("list").style.margin = "0px";
-  }
+    if (window.pageYOffset >= sticky) {
+      nav.classList.add("sticky")
+      document.getElementById("logo").style.width = "17%";
+      document.getElementById("list").style.margin = "-20px";
+    } else {
+      nav.classList.remove("sticky");
+      document.getElementById("logo").style.width = "30%";
+      document.getElementById("list").style.margin = "0px";
+    }
 }
 
 // Declare messages
@@ -29,9 +29,21 @@ let buttonBad = document.getElementById("bad");
 
 // different functions
 buttonNice.onclick = function (){
-  document.getElementById("subject").value = nice;
+    document.getElementById("subject").value = nice;
 }
   
 buttonBad.onclick = function (){
-  document.getElementById("subject").value = bad;
+    document.getElementById("subject").value = bad;
 }
+
+// little game function
+
+let randomFire = Fires["fire1.png", "fire2.png", "fire3.png", "fire4.png", "fire5.png"]
+
+function pickRandomFire(){
+
+}
+
+
+
+

@@ -120,6 +120,9 @@ header a:hover{
   color: #4A4A4A;
 }
 
+#about iframe{
+  width:100%;
+}
 
 /* Boxes */
 #boxgame{
@@ -156,6 +159,26 @@ header a:hover{
   font-size:1.5em;
   color:white;
   font-family:myFirstFont;
+}
+
+/* livescore */
+
+#littlegame{
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+#littlegame .box{
+  float:left;
+  text-align: center;
+  width:15%;
+  padding:10px;
+}
+
+#littlegame img{
+  width: 100%;
+  height: auto;
 }
 
 /* livescore */
@@ -360,7 +383,7 @@ footer img{
     display:none!important;
   }
 
- #contactform.containerform{
+ #contactform .containerform{
    width:80%;
  }
  
