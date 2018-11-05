@@ -37,13 +37,15 @@ buttonBad.onclick = function (){
 }
 
 // little game function
+let buttonStart = document.getElementById("start")
+let differentFires = ["fire1", "fire2", "fire3", "fire4", "fire5",]
+let randomFire = differentFires[Math.floor(Math.random()*differentFires.length)];
 
-let randomFire = Fires["fire1.png", "fire2.png", "fire3.png", "fire4.png", "fire5.png"]
 
-function pickRandomFire(){
 
+function game(){
+  document.getElementById(`${randomFire}`).style.opacity = "1";
+  console.log(`${randomFire}`)
 }
 
-
-
-
+game()
