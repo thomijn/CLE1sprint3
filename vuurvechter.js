@@ -27,7 +27,7 @@ let bad = "Dit spel heeft flink wat verbeteringen nodig."
 let buttonNice = document.getElementById("nice");
 let buttonBad = document.getElementById("bad");
 
-// different functions
+// different functions to change a style element
 buttonNice.onclick = function (){
     document.getElementById("subject").value = nice;
 }
